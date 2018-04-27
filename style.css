@@ -1,12 +1,16 @@
 
 @media only screen and (min-width: 769px) {
-    .img-fluid {
+    .img-thumbnail {
         max-width: 25%;
+    }
+    .img-fluid {
+        max-width: auto;
+        border : 0;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .img-fluid {
+    .img-thumbnail {
         max-width: 30%;
     }
     ul {
@@ -20,7 +24,7 @@
     .body {
         width: auto;
     }
-    .img-fluid {
+    .img-thumbnail {
         max-width: 95%;
         display: block;
         float: none;
